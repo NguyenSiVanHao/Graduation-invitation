@@ -119,7 +119,7 @@ export function NameEntryModal({ isOpen, initialName, onSave, onClose }) {
               ref={inputRef}
               type="text"
               className={`name-input ${error ? 'has-error' : ''}`}
-              placeholder="Ví dụ: Nguyễn Minh Anh"
+              placeholder="Ví dụ: Vạn Hào"
               value={name}
               onChange={(e) => {
                 setName(e.target.value);
